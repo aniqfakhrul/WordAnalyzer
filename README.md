@@ -1,4 +1,4 @@
-# Assignment (Word Analyzer)
+# Word Analyzer (Assignment)
 
 ## What does it do?
 
@@ -29,12 +29,13 @@ for (let test of res){
 
 ## Additional Feature
 
-I added a line of code to ignore spaces if users input senteces with spaces.
+* I added a line of code to ignore spaces if users input sentences with spaces.
 ```js
 if (test != ' '){
 	//count characters
 }
 ```
+* Created `Count.js` file as a seperate component in `/components` folder. _(Imported in App.js)_
 
 ## User Interface
 
