@@ -10,20 +10,20 @@
 * Application will parse words by characters as array of characters _(using Split() function)_
 * Crete a for loop to iterate through all the characters and application will verify whether it is a vowel or consonent.
 ```js
-            for (let test of res){
+for (let test of res){
 
-              //specify whether its consonants or vowels
-              if (test.match(vowels)){
-                total_vowels++;
-              }
-              else if (test.match(conso)){
-                total_conso++;
-              }
+//specify whether its consonants or vowels
+if (test.match(vowels)){
+total_vowels++;
+}
+else if (test.match(conso)){
+total_conso++;
+}
 
-              //get total chars
-              if (test != ' '){total_char += test.length;}
+//get total chars
+if (test != ' '){total_char += test.length;}
 
-            }
+}
 ```
 * Application will return total numbers of **vowels, consonents and characters overall**
 
@@ -38,4 +38,4 @@ if (test != ' '){
 
 ## User Interface
 
-![Capture.PNG]
+![screenshot](Capture.PNG)
